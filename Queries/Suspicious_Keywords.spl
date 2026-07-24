@@ -1,0 +1,10 @@
+/*The Below Queries are Used For Hunting Suspicious Powershell Usage */
+
+index=* Image="*powershell.exe"
+(CommandLine="*-enc*"
+OR CommandLine="*Hidden*"
+OR CommandLine="*Invoke-WebRequest*"
+OR CommandLine="*ExecutionPolicy Bypass*"
+OR CommandLine="*DownloadString*"
+OR CommandLine="*WebClient*")
+| table_time host User Image ParentImage CommandLine
