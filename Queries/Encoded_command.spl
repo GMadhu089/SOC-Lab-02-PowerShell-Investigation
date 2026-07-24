@@ -1,0 +1,8 @@
+index=* Image="*powershell.exe"
+CommandLine="*-enc*"
+
+         (or)
+
+index=* Image="*powershell.exe"
+CommandLine="*-enc*"
+| table_time User ParentImage CommandLine
