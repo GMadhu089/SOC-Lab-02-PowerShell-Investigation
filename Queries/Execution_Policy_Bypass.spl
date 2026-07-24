@@ -1,0 +1,3 @@
+Index=* Image="*powershell.exe"
+CommandLine="*ExecutionPolicy Bypass*"
+| table_time host User ParentImage Image CommandLine
