@@ -1,0 +1,2 @@
+index=* Image="*powershell.exe"
+| table_time host User ParentImage Image CommanLine
