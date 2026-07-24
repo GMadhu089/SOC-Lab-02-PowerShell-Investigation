@@ -1,0 +1,8 @@
+index=* Image="*powershell.exe"
+CommandLine="*Hidden*"
+
+        (or)
+
+index=* Image="*powershell.exe"
+CommandLine="*Hidden*"
+| table_time user ParentImage Image CommandLine
