@@ -1,0 +1,3 @@
+index=* Image="*Powershell.exe"
+(CommandLine="*Invoke-WebRequest*" OR CommandLine="*iwr*")
+| table_time host User ParentImage Image CommandLine
