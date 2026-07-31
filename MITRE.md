@@ -6,7 +6,7 @@
 | Obfuscated Files |     T1027   |     Encoded Commands          |
 | Ingress Tool Transfer | T1105  |     Invoke-WebRequest         |
 | Command and Scripting | T1059  |     PowerShell Abuse          |
-  Interpreter
+ Interpreter
 
 ---
 
